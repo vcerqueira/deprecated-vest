@@ -1,18 +1,38 @@
-# VEST 
+# VEST: Vector of Statistics for Time Series
 
-## NOTE ON PYTHON VERSION
+This repository contains the original tools for automatic feature engineering for time series forecasting problems.
 
-I developed a new python version which is available at https://github.com/vcerqueira/vest-python
+---
 
-This one contains the R package and the experiments necessary for the paper which is under review.
-In future developments, I will focus on the python implementation.
+## ⚠️ Deprecation Warning
 
+**This repository is no longer maintained.** A newer, more active **Python version** is available and should be used for current projects:
+ 
+- **[vcerqueira/experiments-vest](https://github.com/vcerqueira/experiments-vest)**
 
-## Vector of Statistics from Time Series
+---
 
-This package/project contains a set of tools for automatic feature engineering for time series forecasting problems.
-This is an early version complementary to ongoing publication (under peer review)
+## About VEST
 
-In order to understand how vest works you can go through the experiments within "experiments" folder, which already contains a dummy example.
+VEST (Vector of Statistics from Time Series) provides a framework for **automatic feature engineering**. It is designed to extract meaningful statistical representations from time series data to improve the performance of forecasting models.
 
-Feel free to get in touch if you have any question at cerqueira.vitormanuel@gmail.com
+This work is the complementary implementation of the paper:
+**"Vest: Automatic feature engineering for forecasting"**, published in *Machine Learning* (2024).
+
+---
+
+## Citation
+
+If you find this work useful, please cite the following publication:
+
+```bibtex
+@article{cerqueira2024vest,
+  title={Vest: Automatic feature engineering for forecasting},
+  author={Cerqueira, Vitor and Moniz, Nuno and Soares, Carlos},
+  journal={Machine Learning},
+  volume={113},
+  number={7},
+  pages={4523--4545},
+  year={2024},
+  publisher={Springer}
+}
